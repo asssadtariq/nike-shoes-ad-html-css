@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;	
+	
+}
+
+.background-sides {
+	display: flex;
+}
+
+.left-side {
+	background-color: #bc9702;
+	height: 100vh;
+	width: 50vw;
+}
+
+.right-side {
+	background-color: white;
+	height: 100vh;
+	width: 50vw;
+}
+
+.nike-container {
+	background-color: white;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+	height: 75%;
+	width: 85%;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+header {
+	height: 65px;
+	color: black;
+}
+
+nav{
+	display: flex;
+	height: 65px;
+	align-items: center;
+}
+
+.logo {
+	margin-left: 60px;
+	height: 50px;
+	width: 50px;	
+}
+
+nav h3 {
+	margin-left: 10px;
+	font-family: sans-serif;
+}
+
+
+ul {
+	display: flex;
+	width: 100vw;
+	height: 65px;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 20px;
+}
+
+li {
+	list-style: none;
+	padding: 0px 15px;
+	cursor: pointer;
+}
+
+li:hover {
+	color: #bc9702;
+	cursor: pointer;
+}
+
+main {
+	height: calc(100% - 80px - 65px);
+	display: flex;
+}
+
+.text-area {
+	width: 25%;
+	margin-top: 100px;	
+	margin-left: 150px;
+}
+
+.text-area h2, .text-area p, .text-area button {
+	margin: 10px 0px;
+}
+
+#superscript {
+	font-size: 0.6rem;
+}
+
+.text-area button {
+	width: 120px;
+	height: 45px;
+	font-size: 1.2rem;
+	font-weight: bolder;
+	background-color: #bc9702;
+	border-color: #bc9702;
+	color: white;
+	cursor: pointer;
+}
+
+.text-area button:hover {
+	background-color: #ecca04;
+	border-color: #ecca04;
+}
+
+.shoes-photo {
+	width: 60%;
+}
+
+.shoes-photo img {
+	height: 345px;
+	width: 400px;
+	margin-left: 100px;
+}
+
+footer {
+	height: 80px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.copy-right-text {
+	width: 100%;
+	text-align: center;
+	font-weight: 500;
+}
+
+.social-links {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.social-links img {
+	height: 30px;
+	width: 30px;
+	margin: 0px 10px;
+}
